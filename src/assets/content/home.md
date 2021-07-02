@@ -10,8 +10,11 @@ David Newbury is the Head of Software at the J. Paul Getty Trust, where he works
 * [Date Calculator (2019)](https://date-calculator.davidnewbury.com) A Testbed for roundtripping EDTF dates and periods into English Phrases.  Extracted from the Art Tracks code as a stand-alone library.
 * [Evil Manifests (2018)](http://evil-manifests.davidnewbury.com) A collection of malicious IIIF 2.1 manifests--think fork bombs, HTML escaping, etc.
 * [Art Tracks (2015-2017)](http://www.museumprovenance.org/).  A research project to define a standard for representing traditional art history provenance in a format the bridges existing practice and digital standards.
-* [Terrapattern (2016)](http://www.terrapattern.com/)Terrapattern is a way to search visually within satellite imagery using computer vision.  Funded by the Knight Foundation.  [(code)](https://github.com/CreativeInquiry/terrapattern)
+* [Six Degrees of Frances Bacon (2017)](http://www.sixdegreesoffrancisbacon.com)
+A social network visualization of early modern literature.  Lead a redesign of the backend and data infrastructure. ([code](https://github.com/sdfb/sdfb))
+* [Terrapattern (2016)](http://www.terrapattern.com/) Terrapattern is a way to search visually within satellite imagery using computer vision.  Funded by the Knight Foundation.  [(code)](https://github.com/CreativeInquiry/terrapattern)
 * [Moon Drawings (2015)](https://creativeinquiry.github.io/moondrawings.org/) A project to extend artistic expression to the Moon. In spring 2015, nearly nine thousand people contributed line drawings to this project. These drawings will be etched on a sapphire disc, to be sent to the Moon.
+
 
 ## Code
 
