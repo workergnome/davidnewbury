@@ -10,13 +10,33 @@ David Newbury is the Head of Software at the J. Paul Getty Trust, where he works
 * [Date Calculator (2019)](https://date-calculator.davidnewbury.com) A Testbed for roundtripping EDTF dates and periods into English Phrases.  Extracted from the Art Tracks code as a stand-alone library.
 * [Evil Manifests (2018)](http://evil-manifests.davidnewbury.com) A collection of malicious IIIF 2.1 manifests--think fork bombs, HTML escaping, etc.
 * [Art Tracks (2015-2017)](http://www.museumprovenance.org/).  A research project to define a standard for representing traditional art history provenance in a format the bridges existing practice and digital standards.
+* [American Art Collaborative (2016-2017)](http://browse.americanartcollaborative.org).  The American Art Collaborative was a Mellon and IMLS-funded consortium of 14 art museums in the United States committed to establishing a critical mass of linked open data (LOD) on the semantic web.  Led development of the public interface with [Design for Context](https://www.designforcontext.com), developed the consensus data model, and [built an application for reviewing the data](https://review.americanartcollaborative.org).  This work on the American Art Collaborative became the foundation of the [linked.art](https://linked.art) project. [(code)](https://www.github.com/designforcontext/aac_browse_app)
 * [Six Degrees of Frances Bacon (2017)](http://www.sixdegreesoffrancisbacon.com)
-A social network visualization of early modern literature.  Lead a redesign of the backend and data infrastructure. ([code](https://github.com/sdfb/sdfb))
+A social network visualization of early modern literature.  Led a redesign of the backend and data infrastructure. ([code](https://github.com/sdfb/sdfb))
 * [Terrapattern (2016)](http://www.terrapattern.com/) Terrapattern is a way to search visually within satellite imagery using computer vision.  Funded by the Knight Foundation.  [(code)](https://github.com/CreativeInquiry/terrapattern)
 * [Moon Drawings (2015)](https://creativeinquiry.github.io/moondrawings.org/) A project to extend artistic expression to the Moon. In spring 2015, nearly nine thousand people contributed line drawings to this project. These drawings will be etched on a sapphire disc, to be sent to the Moon.
 
+---
 
 ## Code
+
+#### [Cultural Dates: **A Ruby library for parsing cultural heritage dates and intervals in EDTF**](https://www.github.com/arttracks/cultural_dates)
+
+
+Have you ever wished that there was an easy way for computers to make sense of the complications around the vague, imprecise dates cultural historians use?  Perhaps you've gone looking for concepts like [Allen Interval algebra](https://en.wikipedia.org/wiki/Allen%27s_interval_algebra), [XML Schema dates](https://www.w3.org/TR/xmlschema-2/) or [CIDOC-CRM](http://www.cidoc-crm.org), but you've backed away from the edge of that abyss, shaking your head and hoping your sanity remains intact.
+
+`cultural_dates` is a library written from the *other side*, providing sensible defaults and formats for humans and comprehensive schemas and abstractions for computers.  At its core, it's a parser that takes human-readable expressions like "Sometime after the 1880s until at least October 1920" and converts it into concrete dates in various forms, while still trying to maintain the underlying precision and expression.  It also goes the other way, taking the underlying data model and humanizing it into strings that have meaning for humans.
+
+
+#### [OFXOscuino](https://github.com/workergnome/ofxOscuino)
+
+ofxOscuino is a quick and dirty [OpenFrameworks](http://openframeworks.cc) addon for using the [Oscuino](http://cnmat.berkeley.edu/oscuino) library for [OSC](http://opensoundcontrol.org) on [Arduino](http://www.arduino.cc).  It works as a bridge between the serial port and the UDP libraries.
+
+It does this by creating a SLIP bridge and sending the OSC messages over serial to the arduino.  Any messages sent back will be converted back into OSC and sent over the UDP port back to the application.  While this is certainly not the most efficient way to do so, it lets all the existing OpenFrameworks OSC stuff work out of the box.
+
+Included in the example is a very basic example Arduino sketch, called `ofxOscuinoArduinoExample`.  This will require that you have installed the [Oscuino Arduino Library](https://github.com/CNMAT/OSC) into your installation of Arduino.
+
+---
 
 ## Talks and Presentations
 
@@ -47,9 +67,7 @@ A social network visualization of early modern literature.  Lead a redesign of t
 * 2015 — Archives as First Class Digital Citizens. MCN 2015 ([slides](https://www.slideshare.net/workergnome/archives-as-first-class-digital-citizens))
 
 
-
-
-
+---
 
 ## Writings
 
