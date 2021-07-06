@@ -36,6 +36,20 @@ It does this by creating a SLIP bridge and sending the OSC messages over serial 
 
 Included in the example is a very basic example Arduino sketch, called `ofxOscuinoArduinoExample`.  This will require that you have installed the [Oscuino Arduino Library](https://github.com/CNMAT/OSC) into your installation of Arduino.
 
+
+#### [IIIF_S3](https://www.github.com/cmoa/iiif_s3)
+
+A Ruby IIIF 2.1 Level 0 IIIF processing library, written as part of Carnegie Museum of Art's [archives project](https://records.cmoa.org).  It can be used to generate IIIF compatible images stacks and metatdata from a collection of images, and then to upload those images to Amazon S3 for static serving.
+
+_This library still works, to my knowledge, but hasn't been updated recently.  I'd recommend using <https://github.com/go-iiif/go-iiif> these days._
+
+### [Micro-Authority](http://microauthority.museumprovenance.org)  [(code)](https://www.github.com/arttracks/microauthority)
+
+If you've got a list of people and you'd like to publish them on the web as Linked Open Data, MicroAuthority is a simple, bare-bones system that provides an API, search, and other tools for developers and digital researchers.
+
+MicroAuthority creates both HTML & Linked Open Data endpoints for institutional Agent authority files—lists of people, organizations, and groups. Data is provided by the institution as a CSV file. MicroAuthority automatically creates a unique URI for every row in that CSV file that works as both a webpage and as machine-readable Linked Open Data.
+
+
 ---
 
 ## Talks and Presentations

@@ -1,29 +1,14 @@
-# davidnewbury
+# David Newbury's personal portfolio site and resume.
 
-## Project setup
-```
-yarn install
-```
+### Projects to Add
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Run your unit tests
-```
-yarn test:unit
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+* [ ] CMOA Archives Project
+* [ ] CMOA Gulf Tower project
+* [ ] Exquisite Donut - https://www.github.com/workergnome/exquisitedonut
+* [ ] The Rain art
+* [ ] IIIF Kittens
+* [ ] Failure Lab/Bombyx Work
+* [ ] Nazi hunter project
+* [ ] IIIF-pallete https://www.github.com/workergnome/iiif_palette & http://palette.davidnewbury.com
+* [ ] Scratchpad
+* [X] Microauthority
