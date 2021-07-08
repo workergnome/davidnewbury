@@ -2,7 +2,6 @@
 
 ### Projects to Add
 
-* [ ] CMOA Archives Project
 * [ ] CMOA Gulf Tower project
 * [ ] Exquisite Donut - https://www.github.com/workergnome/exquisitedonut
 * [ ] The Rain art
@@ -12,3 +11,4 @@
 * [ ] IIIF-pallete https://www.github.com/workergnome/iiif_palette & http://palette.davidnewbury.com
 * [ ] Scratchpad
 * [X] Microauthority
+* [X] CMOA Archives Project
