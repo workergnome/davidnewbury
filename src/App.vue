@@ -24,6 +24,21 @@ html {
   margin: auto;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: $grey;
+}
+h1 {
+  font-size: 300%;
+  font-weight: 200;
+}
+h2 {
+  font-size: 130%;
+  font-weight: 500;
+}
 a {
   font-weight: bold;
   color: $orange;

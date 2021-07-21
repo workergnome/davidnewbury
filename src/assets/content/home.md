@@ -1,6 +1,4 @@
-# David Newbury
 
-David Newbury is the Head of Software at the J. Paul Getty Trust, where he works with cultural heritage professionals, researchers, scientists and technologists to find common solutions to technical and scholarly problems.  In this capacity, he leads the technical implementation of projects such as the Getty Vocabularies and the Getty Museum collection. Previous projects include Art Tracks, a provenance project at the Carnegie Museum of Art, and the American Art Collaborative, working with 14 museums on standardizing models and software around linked data. He has previously worked with Carnegie Mellon, the University of British Columbia, University of Illinois, and PBS.
 
 ---
 
@@ -59,7 +57,7 @@ In the surrealist party game "The Exquisite Corpse", each player creates a parti
 ---
 
 ## Talks and Presentations
-
+* 2021 — [Stereographs in IIIF](https://youtu.be/IOPZ5Gx-sH8?t=1071), IIIF Annual Conference
 * 2021 — [IIIF Across Platforms](https://www.youtube.com/watch?v=Qc66Jm-IzhQ), IIIF Community Call ([slides](https://www.slideshare.net/workergnome/iiif-across-platforms-iiif-community-call-january-2021))
 * 2020 — Future of Digital Provenance, International Catalogue Raisonné Association Annual Conference
 * 2020 — [Canvases as First-Class Citizens](https://www.youtube.com/watch?v=E1tta7dDGao) IIF Fall Working Meeting. ([slides](https://www.slideshare.net/workergnome/iiif-canvases-as-first-class-citizens))

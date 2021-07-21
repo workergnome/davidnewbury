@@ -1,40 +1,32 @@
 <template>
   <div class="home">
-    <div class="text" v-html="marked(content)"></div>
+    <header>
+      <h1>David Newbury</h1>
+      <SocialMedia />
+    </header>
+    <section class="rich-text" v-html="marked(bio)"></section>
+    <section class="rich-text" v-html="marked(content)"></section>
+    <footer></footer>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
 import content from "@/assets/content/home.md";
+import bio from "@/assets/content/bio.md";
 import marked from "marked";
-
+import SocialMedia from "@/components/SocialMedia.vue";
 export default {
   name: "Home",
   data: function () {
-    return { content: content, marked: marked };
+    return { content: content, marked: marked, bio: bio };
   },
-  components: {},
+  components: { SocialMedia },
 };
 </script>
 
 <style lang="scss">
-.text {
-  h1,
-  h2,
-  h3,
-  h4,
-  h5 {
-    color: $grey;
-  }
-  h1 {
-    font-size: 300%;
-    font-weight: 200;
-  }
-  h2 {
-    font-size: 130%;
-    font-weight: 500;
-  }
+.rich-text {
   hr {
     border-top: $light-grey;
   }
