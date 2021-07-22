@@ -3,8 +3,9 @@
 ### Projects to Add
 
 * [ ] CMOA Gulf Tower project
+* [ ] Art Information Commons
 * [ ] OreoBot
-* [ ] The Rain art
+* [ ] The Rain Art
 * [ ] IIIF Kittens
 * [ ] Failure Lab/Bombyx Work
 * [ ] Nazi hunter project

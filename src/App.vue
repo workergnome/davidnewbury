@@ -34,6 +34,7 @@ h5 {
 h1 {
   font-size: 300%;
   font-weight: 200;
+  margin-bottom: 0.75rem;
 }
 h2 {
   font-size: 130%;
