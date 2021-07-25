@@ -9,4 +9,7 @@
 * [ ] IIIF Kittens
 * [ ] Failure Lab/Bombyx Work
 * [ ] Nazi hunter project
+* [ ] pplkpr
+* [ ] TV Comment Bot
+* [ ] Iontank Work
 * [ ] IIIF-pallete https://www.github.com/workergnome/iiif_palette & http://palette.davidnewbury.com

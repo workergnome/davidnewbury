@@ -1,22 +1,5 @@
 
 
----
-
-## Projects
-
-* [Stereographs in IIIF (2021)](https://stereograph.davidnewbury.com/).  A IIIF-powered viewer for stereo photographs, with the ability to download GIFs and view the images in VR.
-* [Date Calculator (2019)](https://date-calculator.davidnewbury.com) A Testbed for roundtripping EDTF dates and periods into English Phrases.  Extracted from the Art Tracks code as a stand-alone library.
-* [Evil Manifests (2018)](http://evil-manifests.davidnewbury.com) A collection of malicious IIIF 2.1 manifests--think fork bombs, HTML escaping, etc.
-* [Art Tracks (2015-2017)](http://www.museumprovenance.org/).  A research project to define a standard for representing traditional art history provenance in a format the bridges existing practice and digital standards.
-* [American Art Collaborative (2016-2017)](http://browse.americanartcollaborative.org).  The American Art Collaborative was a Mellon and IMLS-funded consortium of 14 art museums in the United States committed to establishing a critical mass of linked open data (LOD) on the semantic web.  Led development of the public interface with [Design for Context](https://www.designforcontext.com), developed the consensus data model, and [built an application for reviewing the data](https://review.americanartcollaborative.org).  This work on the American Art Collaborative became the foundation of the [linked.art](https://linked.art) project. [(code)](https://www.github.com/designforcontext/aac_browse_app)
-* [Six Degrees of Frances Bacon (2017)](http://www.sixdegreesoffrancisbacon.com)
-A social network visualization of early modern literature.  Led a redesign of the backend and data infrastructure. ([code](https://github.com/sdfb/sdfb))
-* [Carnegie Museum Film/Video Archives](http://records.cmoa.org)  Online access to an archive of digitized materials from the Film/Video department, highlighting years of experimental film screenings and communication with artists like Stan Brakhage and Carolee Schneemann.
-* [Terrapattern (2016)](http://www.terrapattern.com/) Terrapattern is a way to search visually within satellite imagery using computer vision.  Funded by the Knight Foundation.  [(code)](https://github.com/CreativeInquiry/terrapattern)
-* [Moon Drawings (2015)](https://creativeinquiry.github.io/moondrawings.org/) A project to extend artistic expression to the Moon. In spring 2015, nearly nine thousand people contributed line drawings to this project. These drawings will be etched on a sapphire disc, to be sent to the Moon.
-
----
-
 ## Code
 
 #### [Cultural Dates: **A Ruby library for parsing cultural heritage dates and intervals in EDTF**](https://www.github.com/arttracks/cultural_dates)
