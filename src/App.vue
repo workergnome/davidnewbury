@@ -37,6 +37,7 @@ h1 {
   font-size: 300%;
   font-weight: 200;
   margin-bottom: 0.75rem;
+  letter-spacing: -0.2rem;
 }
 h2 {
   font-size: 130%;
