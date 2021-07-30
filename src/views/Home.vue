@@ -5,7 +5,7 @@
       <SocialMedia />
     </header>
 
-    <section class="rich-text" v-html="marked(bio)"></section>
+    <section class="rich-text bio" v-html="marked(bio)"></section>
     <section class="projects rich-text">
       <h2>Projects</h2>
       <Project
@@ -58,7 +58,7 @@ section {
   li,
   p {
     padding-bottom: 0.75rem;
-    line-height: 1.6;
+    line-height: 1.75;
     clear: both;
     &::marker {
       color: $light-grey;
@@ -67,10 +67,12 @@ section {
   a {
     font-weight: 400;
   }
-  li img {
+}
+.bio {
+  img {
     float: left;
-    width: 100px;
-    margin-right: 2rem;
+    margin-right: 1.5rem;
+    padding-bottom: 1rem;
   }
 }
 </style>

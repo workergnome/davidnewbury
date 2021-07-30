@@ -13,3 +13,5 @@
 * [ ] TV Comment Bot
 * [ ] Iontank Work
 * [ ] IIIF-pallete https://www.github.com/workergnome/iiif_palette & http://palette.davidnewbury.com
+
+* [ ] Convert to Nuxt for static build?

@@ -14,11 +14,13 @@
   src: url("/fonts/Spartan-VariableFont_wght.ttf") format("truetype");
   font-weight: 100 1000;
 }
+
 html {
   background: $white;
   color: $black;
   font-family: Spartan;
 }
+
 #app {
   max-width: 800px;
   margin: auto;
