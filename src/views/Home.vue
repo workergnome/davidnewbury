@@ -23,7 +23,7 @@
 // @ is an alias to /src
 import content from "@/assets/content/home.md";
 import bio from "@/assets/content/bio.md";
-import marked from "marked";
+import { marked } from "marked";
 import projects from "@/assets/content/projects.json";
 import SocialMedia from "@/components/SocialMedia.vue";
 import Project from "@/components/Project.vue";
