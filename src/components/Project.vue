@@ -1,4 +1,4 @@
-<template>
+git add<template>
   <div class="project">
     <a :href="project.url">{{ project.name }} ({{ yearText }})</a>
     <div v-html="htmlDesc" class="description"></div>

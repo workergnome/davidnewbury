@@ -1,6 +1,6 @@
 <template>
   <ul class="social-media">
-    <li>
+<!--     <li>
       <a href="https://twitter.com/workergnome" target="_blank">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -13,7 +13,7 @@
           />
         </svg>
       </a>
-    </li>
+    </li> -->
     <li>
       <a href="https://github.com/workergnome" target="_blank">
         <svg
